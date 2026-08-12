@@ -18,6 +18,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+     scroll-behavior: smooth;
+}
 body {
     background-color: var(--light);
     color: var(--dark);
@@ -437,7 +440,7 @@ footer { background-color: var(--secondary); color: var(--white); padding: 4rem 
 .social-links a:hover { background-color: var(--primary); transform: translateY(-3px); }
 .footer-bottom { text-align: center; padding-top: 2rem; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.7; font-size: 0.9rem; }
 .back-to-top { position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; background-color: var(--primary); color: var(--white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; cursor: pointer; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; }
-.back-to-top.active { opacity: 1; visibility: visible;  scroll-behavior: smooth;}
+.back-to-top.active { opacity: 1; visibility: visible; }
 .back-to-top:hover { background-color: var(--secondary); transform: translateY(-5px); }
 
 /* Carrinho Sidebar */
